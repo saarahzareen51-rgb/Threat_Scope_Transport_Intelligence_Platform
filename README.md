@@ -11,7 +11,7 @@ Also navigate to ** rss2.py ** and replace the placeholder at line 725 with the 
 Since this is a threat intelligence platform, the threats are first parsed from the rss feeds and then displayed on the dashboard.The code is built upon streamlit.
 
 Follow the beow steps to access the dashboard.
---Open the folder via Vs Code terminal
+--Open the entire folder in Vs Code terminal
 --So firstly please run the ** rss2.py ** code to get the latest threat advisories from the sources. 
 --Then run the ** auth.py ** code.this is the authentication page befor the main dashboard by typing:
       -streamlit run auth.py---->you will redirected to the login/signup page.Ensure to signup
