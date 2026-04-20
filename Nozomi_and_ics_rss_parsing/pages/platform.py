@@ -13,8 +13,8 @@ from groq import Groq  # For interacting with Groq API
 # Setting up the database filename and the API keys for NVD and Groq.
 DB_NAME = "CTI2_Feeds.db"
 AUTH_DB = "auth.db"
-NVD_API_KEY = "3df32952-9adf-4002-a285-bf3150e6df21"
-GROQ_API_KEY = "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"
+NVD_API_KEY = "Your_API_KEY_HERE"
+GROQ_API_KEY = "Your_API_KEY_HERE"
 
 client = Groq(api_key=GROQ_API_KEY)
 # ============================================================
